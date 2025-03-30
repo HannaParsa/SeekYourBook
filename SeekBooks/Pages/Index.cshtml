@@ -1,10 +1,39 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Book Search</h2>
+
+<form method="get">
+    <input type="text" asp-for="SearchQuery" placeholder="Search for books..." />
+    <button type="submit">Search</button>
+</form>
+
+@if (Model.Books != null && Model.Books.Length > 0)
+{
+    <h3>Search Results</h3>
+    <ul>
+        @foreach (var book in Model.Books)
+        {
+            <li>
+                <strong>@book.VolumeInfo.Title</strong><br />
+                @if (book.VolumeInfo.Authors != null)
+                {
+                    <em>@string.Join(", ", book.VolumeInfo.Authors)</em><br />
+                }
+                @if (book.VolumeInfo.Categories != null)
+                {
+                    <small>Categories: @string.Join(", ", book.VolumeInfo.Categories)</small><br />
+                }
+                <p>@book.VolumeInfo.Description</p>
+                @if (!string.IsNullOrEmpty(book.VolumeInfo.ImageLinks))
+                {
+                    <img src="@book.VolumeInfo.ImageLinks" alt="Book Image" />
+                }
+            </li>
+        }
+    </ul>
+}
+else if (Model.SearchQuery != null)
+{
+    <p>No results found for @Model.SearchQuery.</p>
+}

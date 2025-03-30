@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\source\\repos\\SeekBooks\\SeekBooks\\SeekBooks\\SeekBooks.csproj": {}
+    "D:\\SeekBooks\\SeekBooks\\SeekBooks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\source\\repos\\SeekBooks\\SeekBooks\\SeekBooks\\SeekBooks.csproj": {
+    "D:\\SeekBooks\\SeekBooks\\SeekBooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\SeekBooks\\SeekBooks\\SeekBooks\\SeekBooks.csproj",
+        "projectUniqueName": "D:\\SeekBooks\\SeekBooks\\SeekBooks.csproj",
         "projectName": "SeekBooks",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\SeekBooks\\SeekBooks\\SeekBooks\\SeekBooks.csproj",
+        "projectPath": "D:\\SeekBooks\\SeekBooks\\SeekBooks.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\source\\repos\\SeekBooks\\SeekBooks\\SeekBooks\\obj\\",
+        "outputPath": "D:\\SeekBooks\\SeekBooks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

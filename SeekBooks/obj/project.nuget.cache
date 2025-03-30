@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F5Ao0f7NIVQTRVQ+MWxHKFLKLzoCI/svs3IJVcBpXYzRdnuEsty+ozAmOlaH9KLkm1vGTwV6ImmXiskpGd1jBw==",
+  "dgSpecHash": "dsOEG7ASwFt00vLgh1FjbDhoIJGOEOXRS0yUD5ksh9xUZaxTu3zR6aOgSruCcrJ+8ZmIH8V9bJtRbOBLp6Kodg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\source\\repos\\SeekBooks\\SeekBooks\\SeekBooks\\SeekBooks.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\SeekBooks\\SeekBooks\\SeekBooks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

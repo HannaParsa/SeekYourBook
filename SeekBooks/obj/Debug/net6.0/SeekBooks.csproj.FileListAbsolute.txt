@@ -1,0 +1,8 @@
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.csproj.AssemblyReference.cache
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.GeneratedMSBuildEditorConfig.editorconfig
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.AssemblyInfoInputs.cache
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.AssemblyInfo.cs
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.csproj.CoreCompileInputs.cache
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.MvcApplicationPartsAssemblyInfo.cache
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.RazorAssemblyInfo.cache
+D:\SeekBooks\SeekBooks\obj\Debug\net6.0\SeekBooks.RazorAssemblyInfo.cs
