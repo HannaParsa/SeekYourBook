@@ -8,11 +8,11 @@
     <button type="submit">Search</button>
 </form>
 
-@if (Model.Books != null && Model.Books.Length > 0)
+@if (Model.Books != null && Model.Books.Items.Length > 0)
 {
     <h3>Search Results</h3>
     <ul>
-        @foreach (var book in Model.Books)
+        @foreach (var book in Model.Books.Items)
         {
             <li>
                 <strong>@book.VolumeInfo.Title</strong><br />

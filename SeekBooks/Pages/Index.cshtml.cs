@@ -18,7 +18,7 @@ namespace SeekBooks.Pages
         [BindProperty(SupportsGet = true)]
         public string SearchQuery { get; set; }
 
-        public GoogleBooksItem[] Books { get; set; }
+        public GoogleBooksResponse Books { get; set; }
 
         public async Task OnGetAsync()
         {
